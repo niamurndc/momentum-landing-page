@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Momentum</title>
+</head>
+<body class="background" id="body">
+  <p class="h1" id="time"></p>
+  <p class="h2"><span id="greeting"></span>, <span id="name" contenteditable></span></p>
+
+  <div class="focus-input" id="focus-input">
+    <p class="h3">What is your main focus today?</p>
+    <form id="focus-form">
+      <input type="text" id="focus">
+    </form>
+  </div>
+
+  <div class="focus-active" id="focus-output">
+    <h4>TODAY</h4>
+    <div class="focus-item">
+      <input type="checkbox" id="focus-check"><label id="active-focus"></label><span class="delete" id="delete">x</span>
+    </div>
+  </div>
+  
+  
+  <script src="app.js"></script>
+</body>
+</html>
